@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* defoult-css */
+
+
+/* main-css */
+.header{
+    background-color: #7dbee8;
+}
+.header-logo{}
+.header-logo img {
+	width: 226px;
+}
+.header-menu {
+	float: right;
+}
+.header-menu ul{}
+.header-menu ul li {
+	display: inline-block;
+	margin-left: -4px;
+}
+.header-menu ul li a {
+	text-decoration: none;
+	font-size: 26px;
+	line-height: 56px;
+	padding: 28px 19px;
+	transition: .5s;
+	border-right: 1px solid #ddd;
+}
+
+.header-menu ul li a:hover{
+    background-color: teal;
+}
+.header-menu ul li a:nth-child(1){
+    border-left: 1px solid #ddd;
+}
+
+/* banner-css */
+/* banner-css */
+.banner{
+    background: url(./banner.jpg) no-repeat center;
+    background-size: cover;
+    padding: 250px 0;
+}
+.banner-text{}
+.banner-text h1 {
+	font-size: 50px; 
+	padding: 10px 20px;
+	background-color: #9a9a9a;
+	margin-left: 315px;
+	
+}
+.banner-text p {
+	font-size: 34px;
+	background-color: #7dbee8;
+	width: 425px;
+	margin-left: 388px;
+	padding: 10px 29px;
+}
+
+
+/* about-css */
+/* about-css */
+.about{
+    background-color: #ebf0f1;
+}
+.about-title p {
+	width: 403px;
+	margin-left: 351px;
+}
+
+/* service-section */
+/* service-section */
+.service{}
+.service-item {
+	box-shadow: 0px 0px 5px black;
+}
+.service-item span {
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	background-color: teal;
+	margin-left: 155px;
+	border-radius: 10px 0;
+}
+.service-item h2 {
+	font-size: 42px;
+	font-weight: 400;
+}
+
+/* product-section */
+/* product-section */
+.product-item-text p {
+	margin-top: 20px;
+	font-size: 22px;
+	margin-left: -40px;
+}
+.product-item-pic {
+	margin-top: 20px;
+}
+.product-item-pic img {
+	width: 100px;
+}
+.portfolio{
+	padding: 15px;
+}
+.product-item-title{}
+.product-item-title h1 {
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 50px;
+	transition: .5s;
+}
+.product-item-title h1:hover{
+	letter-spacing: 5px;
+}
+.product-item-list{}
+.product-item-list ul {
+	list-style: none;
+}
+.product-item-list ul li{}
+.product-item-list ul li a {
+	text-decoration: none;
+	font-size: 40px;
+	margin-left: -29px;
+	display: inline-block;
+	color: teal;
+	transition: .5s;
+}
+.product-item-list ul li a:hover{
+	color: green;
+	letter-spacing: 3px;
+}
+/* contact-form */
+/* contact-form */
+
+.map{}
+.form {
+	margin-left: 142px;
+}
+.form input{}
+
+/* footer-section */
+/* footer-section */
+.footer{
+	background-color: teal;
+}
+.footer-text{}
+.footer-text h1 {
+	font-size: 30px; 
+	line-height: 60px;
+}
+dl, ol, ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.footer-menu ul {
+	text-align: right;
+}
+.footer-menu ul li {
+	display: inline-block;
+	margin-left: -5px;
+}
+.footer-menu ul li a {
+	color: white;
+	padding: 18px 25px;
+	font-size: 22px;
+	line-height: 66px;
+}
